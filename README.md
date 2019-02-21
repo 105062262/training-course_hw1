@@ -12,9 +12,11 @@ Use to detect and locate the license plate in images.
   * valid (1000)
   * test  (1000)
 * log
+  * (files of train & valid images' visualization)
+    * metrics.jpg (Visualization of MAE & MSE) 
   * result
-    * (files of test output)
-  * (files of train & valid output)
+    * (files of test images' visualization)
+    * a csv for corner detection
 
 ## How To
 * open training-course_hw1.ipynb with jupyter notebook and run the code.
