@@ -6,8 +6,18 @@ Use to detect and locate the license plate in images.
 * Subset of CCPD
 * Only 1 licese plate in each image
 
+## Structure
+* ccpd5000
+  * train (4000)
+  * valid (1000)
+  * test  (1000)
+* log
+  * result
+    * (files of test output)
+  * (files of train & valid output)
+
 ## How To
-* open *.ipynb with jupyter notebook and run the code.
+* open training-course_hw1.ipynb with jupyter notebook and run the code.
 
 ## Environment
 * Python 3.6
